@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive;
+}
+
+.main {
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin-right: 100px;
+    background-color: rgb(23, 162, 184);
+    color: white;
+    font-size: 30px;
+}
+
+.name {
+    font-size: 30px;
+    margin: 0;
+}
+
+
+
+nav {
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    flex: 1;
+    margin-right: 100px;
+    font-size: 30px;
+}
+
+
+section {
+    /* margin-left: 200px; */
+
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-betweeny;
+    align-items: stretch;
+}
+
+.card {
+    border: 5px solid grey;
+    margin-bottom: 50px;
+    background-color: rgb(220, 236, 245);
+}
+
+.card-body {
+    margin-top: 100px;
+    margin-left: 25px;
+    ;
+}
+
+.card-header {
+    padding: 50px;
+    background-color: rgb(23, 162, 184);
+    position: relative;
+
+}
+
+#avatar {
+    font-size: 100px;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.education-section {
+    border: 5px solid grey;
+    background-color: rgb(220, 236, 245);
+}
+
+.leftpage {
+    width: 400px;
+    margin: 25px;
+    margin-left: 100px;
+    flex: 2;
+}
+
+.rightpage {
+    width: 400px;
+    margin-top: 25px;
+    margin-right: 100px;
+    flex: 2;
+
+}
+
+.header {
+    background-color: rgb(23, 162, 184);
+    display: flex;
+    align-items: center;
+}
+
+
+.connection {
+    border: 5px solid grey;
+    margin-bottom: 50px;
+    background-color: rgb(220, 236, 245);
+
+}
+
+.your {
+    border: 5px solid grey;
+    background-color: rgb(220, 236, 245);
+
+}
+
+footer {
+    border-left: 5px solid grey;
+    border-bottom: 5px solid grey;
+    border-right: 5px solid grey;
+
+}
+
+a:visited {
+    color: blue
+}
+
+.names {
+    display: flex;
+}
+
+#avatar2 {
+    position: relative;
+    top: 10px;
+    left: 2px;
+    margin-right: 10px;
+    font-size: 30px;
+
+}
+
+.names>p {
+    border-left: 5px;
+    flex: 2
+}
+
+footer {
+    background-color: rgb(220, 236, 245);
+}
+
+.date {
+    font-weight: light;
+}
